@@ -16,9 +16,9 @@ import com.google.cloud.firestore.CollectionReference;
 import com.google.cloud.firestore.QueryDocumentSnapshot;
 import com.google.cloud.firestore.QuerySnapshot;
 import com.swt1.prototype.services.FirebaseService;
-
+/*
 @Repository
-public class UsersDAO implements DAO<Tasks> {
+public class UsersDAO implements DAO<Users> {
 
     private List<Users> users = new ArrayList<>();
     @Autowired
@@ -27,7 +27,7 @@ public class UsersDAO implements DAO<Tasks> {
     @Override
     public Optional<Users> get(int id) {
         // TODO Auto-generated method stub
-        return Optional.ofNullable(tasks.get((int) id));
+        return Optional.ofNullable(users.get((int) id));
     }
 
     @Override
@@ -80,3 +80,5 @@ public class UsersDAO implements DAO<Tasks> {
     }
 
 }
+
+ */
